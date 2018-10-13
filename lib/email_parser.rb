@@ -17,10 +17,11 @@ class EmailParser
 
   def parse
     # binding.pry
-      self.string.split(", ")
-    elsif self.string.include? (" ")
-      self.string.split(" ")
+    string = self.string.split(", ")
+    string.collect do |parse_1|
+      parse_1.split(" ")
     end 
+    string.flatten!
   end 
 
 
