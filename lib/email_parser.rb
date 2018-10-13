@@ -16,8 +16,7 @@ class EmailParser
   end 
 
   def parse
-    binding.pry
-    if self.string.include? (",")
+    # binding.pry
       self.string.split(", ")
     elsif self.string.include? (" ")
       self.string.split(" ")
