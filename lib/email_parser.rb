@@ -20,7 +20,7 @@ class EmailParser
     string.collect! do |parse_1|
       parse_1.split
     end 
-          binding.pry
+          # binding.pry
     string.flatten
   end 
 
