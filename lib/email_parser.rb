@@ -19,7 +19,6 @@ class EmailParser
     string = self.string.split(", ")
     string.collect do |parse_1|
       parse_1.split
-      binding.pry
     end 
     
     string.flatten
