@@ -22,7 +22,7 @@ class EmailParser
       parse_1.split(" ")
     end 
     binding.pry
-    string.flatten!
+    string.flatten
   end 
 
 
