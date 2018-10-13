@@ -18,7 +18,7 @@ class EmailParser
   def parse
     string = self.string.split(", ")
     string.collect do |parse_1|
-      parse_1.split(" ")
+      parse_1.split
       binding.pry
     end 
     
