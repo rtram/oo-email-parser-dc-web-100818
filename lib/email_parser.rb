@@ -7,7 +7,7 @@ require 'pry'
 
 class EmailParser
  
- @@all = []
+  @@all = []
  
  attr_reader :string
   
